@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aptis READING: TEST 3: Coffee</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; background-color: #f4f7f6; color: #333; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        h1, h2, h3 { color: #2c3e50; }
+        .question-block { margin-bottom: 40px; padding-bottom: 20px; border-bottom: 2px solid #eee; }
+        .text-box { background: #f9f9f9; padding: 15px; border-left: 4px solid #3498db; margin-bottom: 15px; }
+        select { padding: 5px; font-size: 16px; margin: 0 5px; cursor: pointer; }
+        .btn-submit { display: block; width: 100%; padding: 15px; background: #e74c3c; color: white; border: none; font-size: 18px; border-radius: 5px; cursor: pointer; margin-top: 20px; transition: 0.3s; }
+        .btn-submit:hover { background: #c0392b; }
+        .correct { border: 2px solid green; background-color: #eafaf1; color: green; font-weight: bold; }
+        .incorrect { border: 2px solid red; background-color: #fceceb; color: red; font-weight: bold; text-decoration: line-through; }
+        .answer-key { color: #e67e22; font-size: 0.9em; margin-left: 10px; font-weight: bold; }
+        .person-text { margin-bottom: 15px; }
+        .score-display { text-align: center; font-size: 24px; font-weight: bold; margin-top: 20px; color: #27ae60; }
+        .back-link { display: block; text-align: center; margin-top: 20px; font-size: 16px; color: #3498db; text-decoration: none; }
+        .back-link:hover { text-decoration: underline; }
+        .order-row { display: flex; align-items: flex-start; margin-bottom: 10px; }
+        .order-row select { margin-right: 15px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Aptis Reading & Grammar: Test 3 (Coffee)</h1>
+    
+    <div class="question-block">
+        <h2>Question 1 of 5</h2>
+        <p><strong>Read the email from Janice to her friend. Choose one word from the list for each gap. The first one is done for you.</strong></p>
+        <div class="text-box">
+            Hi James,<br><br>
+            I hope you're doing well. I just wanted to remind you about our meeting tomorrow.<br><br>
+            We need to be at the office 
+            <select id="q1_1" class="ans">
+                <option value="">---</option>
+                <option value="early">early</option><option value="lunch">lunch</option><option value="leave">leave</option><option value="car">car</option><option value="sleepy">sleepy</option><option value="coffee">coffee</option><option value="eat">eat</option><option value="busy">busy</option>
+            </select> 
+            in the morning to prepare everything before the clients arrive.<br><br>
+            
+            We will have a short 
+            <select id="q1_2" class="ans">
+                <option value="">---</option>
+                <option value="early">early</option><option value="lunch">lunch</option><option value="leave">leave</option><option value="car">car</option><option value="sleepy">sleepy</option><option value="coffee">coffee</option><option value="eat">eat</option><option value="busy">busy</option>
+            </select> 
+            break at noon, but it's going to be a busy day.<br><br>
+            
+            Make sure to be ready by 7 AM because we will 
+            <select id="q1_3" class="ans">
+                <option value="">---</option>
+                <option value="early">early</option><option value="lunch">lunch</option><option value="leave">leave</option><option value="car">car</option><option value="sleepy">sleepy</option><option value="coffee">coffee</option><option value="eat">eat</option><option value="busy">busy</option>
+            </select> 
+            together from my house.<br><br>
+            
+            I will pick you up in my 
+            <select id="q1_4" class="ans">
+                <option value="">---</option>
+                <option value="early">early</option><option value="lunch">lunch</option><option value="leave">leave</option><option value="car">car</option><option value="sleepy">sleepy</option><option value="coffee">coffee</option><option value="eat">eat</option><option value="busy">busy</option>
+            </select> 
+            , so please be outside on time.<br><br>
+            
+            It's going to be a long day, so try to sleep early tonight.<br><br>
+            
+            Otherwise, you might feel 
+            <select id="q1_5" class="ans">
+                <option value="">---</option>
+                <option value="early">early</option><option value="lunch">lunch</option><option value="leave">leave</option><option value="car">car</option><option value="sleepy">sleepy</option><option value="coffee">coffee</option><option value="eat">eat</option><option value="busy">busy</option>
+            </select> 
+            during the meeting.<br><br>
+            
+            See you tomorrow!<br><br>
+            Best,<br>
+            [TONY]
+        </div>
+    </div>
+
+    <div class="question-block">
+        <h2>Question 2 of 5</h2>
+        <p><strong>The following sentences are instructions to hand in assignment. Arrange the sentences in the correct order. The first sentence has been done for you.</strong></p>
+        <p style="color: #c0392b; font-weight: bold;">Hand in assignment</p>
+        <p><strong>0. Following these instructions to hand in your assignment.</strong></p>
+        <p>Arrange the sentences in the correct order:</p>
+        
+        <div class="order-row">
+            <select id="q2_1" class="ans"><option value="">-</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select> 
+            <div>First, it is a good idea to check your report and correct mistakes</div>
+        </div>
+        <div class="order-row">
+            <select id="q2_2" class="ans"><option value="">-</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select> 
+            <div>When you are sure there are no mistakes left, print out your report</div>
+        </div>
+        <div class="order-row">
+            <select id="q2_3" class="ans"><option value="">-</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select> 
+            <div>Next, complete a cover sheet with your name and your student number, and attach it to your printed assignment</div>
+        </div>
+        <div class="order-row">
+            <select id="q2_4" class="ans"><option value="">-</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select> 
+            <div>Bring your assignment with the attached cover sheet to the front desk in the main hall</div>
+        </div>
+        <div class="order-row">
+            <select id="q2_5" class="ans"><option value="">-</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select> 
+            <div>The staff member will take your report and confirm that everything is complete</div>
+        </div>
+    </div>
+
+    <div class="question-block">
+        <h2>Question 3 of 5</h2>
+        <p><strong>The following sentences are about key cards. Arrange the sentences in the correct order. The first sentence has been done for you.</strong></p>
+        <p style="color: #c0392b; font-weight: bold;">Keys car.</p>
+        <p><strong>0. How to have a new key card.</strong></p>
+        <p>Arrange the sentences in the correct order:</p>
+        
+        <div class="order-row">
+            <select id="q3_1" class="ans"><option value="">-</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select> 
+            <div>To enter the building and use the lift, you will need your key card</div>
+        </div>
+        <div class="order-row">
+            <select id="q3_2" class="ans"><option value="">-</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select> 
+            <div>If you lose this, you will need to see the staff member at the front desk</div>
+        </div>
+        <div class="order-row">
+            <select id="q3_3" class="ans"><option value="">-</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select> 
+            <div>He or she will ask for your name and your flat number, and then will write these down</div>
+        </div>
+        <div class="order-row">
+            <select id="q3_4" class="ans"><option value="">-</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select> 
+            <div>You will also need to show you identification card</div>
+        </div>
+        <div class="order-row">
+            <select id="q3_5" class="ans"><option value="">-</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select> 
+            <div>He or she will make a copy of it and give you a new key card</div>
+        </div>
+    </div>
+
+    <div class="question-block">
+        <h2>Question 4 of 5</h2>
+        <p><strong>Four people are commenting on watching a movie. Read the text and then answer the questions below.</strong></p>
+        <div class="text-box">
+            <div class="person-text"><strong>Person A:</strong><br>"I had already watched this movie last year, but I decided to watch it again because it was such an intense experience. The horror scenes were really terrifying, and I still get chills thinking about them. If you enjoy scary movies, you should definitely check this one out!"</div>
+            <div class="person-text"><strong>Person B:</strong><br>"I watched this movie at home last weekend, and I really enjoyed it. The storyline was well-developed, and I liked the plot twists. It kept me engaged until the very end. I usually prefer watching movies in the cinema, but this one was just as enjoyable at home."</div>
+            <div class="person-text"><strong>Person C:</strong><br>"My friends and I went to see this movie together at the cinema. We had a great time, and it was fun to watch it with a group. I think movies are always better when you can discuss them with friends afterwards. The action scenes were really exciting!"</div>
+            <div class="person-text"><strong>Person D:</strong><br>"I read the book before watching the movie, so I had high expectations. The movie followed the book quite well, but I felt that some parts were unnecessarily long. While I liked the story, I think they could have shortened the movie a bit to make it more engaging."</div>
+        </div>
+        <ol>
+            <li style="margin-bottom: 10px;">Who watched the movie before: <select id="q4_1" class="ans"><option value="">---</option><option value="Person A">Person A</option><option value="Person B">Person B</option><option value="Person C">Person C</option><option value="Person D">Person D</option></select></li>
+            <li style="margin-bottom: 10px;">Who found the movie scary: <select id="q4_2" class="ans"><option value="">---</option><option value="Person A">Person A</option><option value="Person B">Person B</option><option value="Person C">Person C</option><option value="Person D">Person D</option></select></li>
+            <li style="margin-bottom: 10px;">Who watched the movie at home: <select id="q4_3" class="ans"><option value="">---</option><option value="Person A">Person A</option><option value="Person B">Person B</option><option value="Person C">Person C</option><option value="Person D">Person D</option></select></li>
+            <li style="margin-bottom: 10px;">Who liked the plot of the movie: <select id="q4_4" class="ans"><option value="">---</option><option value="Person A">Person A</option><option value="Person B">Person B</option><option value="Person C">Person C</option><option value="Person D">Person D</option></select></li>
+            <li style="margin-bottom: 10px;">Who watched the movie with friends: <select id="q4_5" class="ans"><option value="">---</option><option value="Person A">Person A</option><option value="Person B">Person B</option><option value="Person C">Person C</option><option value="Person D">Person D</option></select></li>
+            <li style="margin-bottom: 10px;">Who thought the movie was too long: <select id="q4_6" class="ans"><option value="">---</option><option value="Person A">Person A</option><option value="Person B">Person B</option><option value="Person C">Person C</option><option value="Person D">Person D</option></select></li>
+            <li style="margin-bottom: 10px;">Who read the book of the movie: <select id="q4_7" class="ans"><option value="">---</option><option value="Person A">Person A</option><option value="Person B">Person B</option><option value="Person C">Person C</option><option value="Person D">Person D</option></select></li>
+        </ol>
+    </div>
+
+    <div class="question-block">
+        <h2>Question 5 of 5</h2>
+        <p><strong>Read the passage quickly. Choose a heading for each numbered paragraph (1–7) from the drop-down box. There is one more heading than you need.</strong></p>
+        <p style="color: #c0392b; font-weight: bold;">The Doggett's Coat and Badge</p>
+        
+        <div class="text-box" style="background: #e8f4f8; border-left-color: #2980b9;">
+            <strong>List of Headings:</strong><br>
+            <strong>A.</strong> A need for change<br>
+            <strong>B.</strong> Earning a reputation<br>
+            <strong>C.</strong> Generations of champions<br>
+            <strong>D.</strong> Not in it for the money<br>
+            <strong>E.</strong> Origins of what the winner receives<br>
+            <strong>F.</strong> Result of a lucky escape<br>
+            <strong>G.</strong> The easiest way to travel<br>
+            <strong>H.</strong> The rules of the competition <em>(Extra heading)</em>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+            <select id="q5_1" class="ans">
+                <option value="">--- Choose Heading ---</option>
+                <option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option><option value="E">E</option><option value="F">F</option><option value="G">G</option><option value="H">H</option>
+            </select>
+            <p><strong>1.</strong> Thomas Doggett, an Irish actor and comedian who managed Drury Lane Theatre, created the race. He relied heavily on Thames watermen, who were vital for transportation at the time. With poor roads and crowded city streets, the Thames served as the primary highway. Doggett frequently commuted via the river between his London work locations and his home in Chelsea.</p>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+            <select id="q5_2" class="ans">
+                <option value="">--- Choose Heading ---</option>
+                <option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option><option value="E">E</option><option value="F">F</option><option value="G">G</option><option value="H">H</option>
+            </select>
+            <p><strong>2.</strong> A popular story suggests that Doggett was saved by a waterman after falling into the Thames in 1715. To show his gratitude, he organized a race for six young watermen, offering a prize for the fastest rower on a 7.4-km course between two pubs named “The Swan” in London Bridge and Chelsea.</p>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+            <select id="q5_3" class="ans">
+                <option value="">--- Choose Heading ---</option>
+                <option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option><option value="E">E</option><option value="F">F</option><option value="G">G</option><option value="H">H</option>
+            </select>
+            <p><strong>3.</strong> Unlike typical prizes, Doggett awarded a traditional red waterman’s coat with a silver badge inscribed with “Liberty.” This badge commemorated the coronation of George I of the House of Hanover on August 1, 1714. Doggett chose August 1 for the annual race to honor this event. The badge today still includes “Liberty” and an image of the Hanover horse. Doggett managed the race and financed it himself until his death in 1721.</p>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+            <select id="q5_4" class="ans">
+                <option value="">--- Choose Heading ---</option>
+                <option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option><option value="E">E</option><option value="F">F</option><option value="G">G</option><option value="H">H</option>
+            </select>
+            <p><strong>4.</strong> After Doggett’s death, the Fishmongers’ Company of London continued the race as specified in his will. However, the event now runs with the incoming tide, and competitors use racing boats instead of commercial vessels. In 1988, due to a decline in watermen, the Fishmongers’ Company allowed competitors three chances to win the race.</p>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+            <select id="q5_5" class="ans">
+                <option value="">--- Choose Heading ---</option>
+                <option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option><option value="E">E</option><option value="F">F</option><option value="G">G</option><option value="H">H</option>
+            </select>
+            <p><strong>5.</strong> The winner’s prize remains the traditional red waterman’s coat along with a silver badge featuring a horse and the word “Liberty.” Additionally, all competitors who finish the race receive a miniature version of Doggett’s badge for their collars at a ceremony held at Watermen’s Hall. The winner receives a silver badge, while other participants receive bronze ones. Historically, winning the Doggett’s Coat and Badge in the 18th and 19th centuries helped bring in more business for the successful waterman. Although this practical advantage is now somewhat outdated, achieving the Doggett’s Coat and Badge remains a highly respected honor.</p>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+            <select id="q5_6" class="ans">
+                <option value="">--- Choose Heading ---</option>
+                <option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option><option value="E">E</option><option value="F">F</option><option value="G">G</option><option value="H">H</option>
+            </select>
+            <p><strong>6.</strong> In 2012, six rowers competed, and the race was won by 23-year-old waterman Merlin Dwan. Dwan comes from a family of watermen; his father won the Doggett’s Coat and Badge in 1977, and his uncle and two cousins have also won the race. However, the Dwan family doesn't hold the record for the most wins—that title goes to the Phelps family, with ten victories.</p>
+        </div>
+
+        <div style="margin-bottom: 25px;">
+            <select id="q5_7" class="ans">
+                <option value="">--- Choose Heading ---</option>
+                <option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option><option value="E">E</option><option value="F">F</option><option value="G">G</option><option value="H">H</option>
+            </select>
+            <p><strong>7.</strong> The tradition of families winning the Doggett’s Coat and Badge highlights its enduring significance. Nowadays, being a waterman is likely viewed less as a career and more as a means of preserving a centuries-old family tradition. This heritage is upheld further by the exclusive group of watermen known as the Royal Watermen. Queen Elizabeth employs 24 watermen to accompany her on ceremonial occasions along the Thames. Each waterman earns a modest annual sum of £3.50 for this role, but the prestige of wearing the iconic red jacket and silver badge on important state occasions is invaluable.</p>
+        </div>
+    </div>
+
+    <button class="btn-submit" onclick="checkAnswers()">Submit & Check Answers</button>
+    <div id="scoreDisplay" class="score-display"></div>
+    <a href="index.html" class="back-link">🔙 Quay lại danh sách đề thi</a>
+
+</div>
+
+<script>
+    const answers = {
+        // Question 1
+        q1_1: 'early', q1_2: 'lunch', q1_3: 'leave', q1_4: 'car', q1_5: 'sleepy',
+        // Question 2
+        q2_1: '1', q2_2: '2', q2_3: '3', q2_4: '4', q2_5: '5',
+        // Question 3
+        q3_1: '1', q3_2: '2', q3_3: '3', q3_4: '4', q3_5: '5',
+        // Question 4
+        q4_1: 'Person A', q4_2: 'Person A', q4_3: 'Person B', q4_4: 'Person B', q4_5: 'Person C', q4_6: 'Person D', q4_7: 'Person D',
+        // Question 5
+        q5_1: 'G', q5_2: 'F', q5_3: 'E', q5_4: 'A', q5_5: 'B', q5_6: 'C', q5_7: 'D'
+    };
+
+    function checkAnswers() {
+        let score = 0;
+        let total = Object.keys(answers).length;
+
+        // Clear previous visual states
+        document.querySelectorAll('.answer-key').forEach(el => el.remove());
+        document.querySelectorAll('.ans').forEach(el => {
+            el.classList.remove('correct', 'incorrect');
+        });
+
+        // Validate each answer
+        for (let key in answers) {
+            let el = document.getElementById(key);
+            let userAns = el.value.trim();
+            let correctAns = answers[key];
+
+            if (userAns === correctAns) {
+                el.classList.add('correct');
+                score++;
+            } else {
+                el.classList.add('incorrect');
+                let span = document.createElement('span');
+                span.className = 'answer-key';
+                span.textContent = ` (Correct: ${correctAns})`;
+                el.parentNode.insertBefore(span, el.nextSibling);
+            }
+        }
+
+        // Display Score at the bottom
+        let percent = Math.round((score / total) * 100);
+        document.getElementById('scoreDisplay').innerHTML = `Your Score: ${score} / ${total} (${percent}%)`;
+        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    }
+</script>
+
+</body>
+</html>
